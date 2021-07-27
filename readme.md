@@ -23,9 +23,9 @@ you can modify what yo want.
 ---
 
 ### scpDownloader.py
-To download the reomte computer files.
-Just get the files.
-SetSSH and create session and download files.
+* To download the reomte computer files.
+* Just get the files.
+* The program process is SetSSH and create session and download files.
 ```bash
 sudo python3 scpDownloader.py
 ```
