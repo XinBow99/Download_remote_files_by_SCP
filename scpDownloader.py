@@ -51,4 +51,4 @@ class getRemoteSSHInfo:
 
 
 if __name__ == "__main__":
-    tanukiComputer = getRemoteSSHInfo()
+    remoteComputer = getRemoteSSHInfo()
