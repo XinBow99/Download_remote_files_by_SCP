@@ -1,0 +1,28 @@
+# remote connection config
+ScpConnectInformation:
+  # remote IP
+  Host: ""
+  # remote UserName
+  UserName: ""
+  # remote UserPassword
+  UserPassword: ""
+  # remote file path, what path you want to get.
+  CorrectFilesPath: "/home/name/folder"
+# Local files directory
+LoaclCorrectFilesPath:
+  # Main folder. That's include temporary files folder and Web folder.
+  Main: "scpPNGPath/"
+  # Web is the newest collect files from remote computer. In my project, i want show this file to webpage, so i called it Web
+  Web: "showOnWeb/"
+  # save the newest temporary files folder
+  Temp: "tempPNG/"
+  # this is what filetype i need.
+  FileType : "png"
+  # classify the return files(this function getWebFiles()).
+  # my files name like key_202001010001_202001050001.filetype.
+  # so i need to classify the files by key.
+  FilesKey :
+    - "good"
+    - "bad"
+    - "total"
+  
