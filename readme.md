@@ -17,7 +17,7 @@ getWebFiles()
 This function can return what files in showOnWeb by classify.
 Will like be
 ```json
-{'key1': 'key1_20210228_20210306.png', 'key2': 'key2_20210228_20210306.png', 'key3': 'key3_20210228_20210306.png', 'date': ['20210228', '20210306']}
+{"key1": "key1_20210228_20210306.png", "key2": "key2_20210228_20210306.png", "key3": "key3_20210228_20210306.png", "date": ["20210228", "20210306"]}
 ```
 you can modify what yo want.
 
